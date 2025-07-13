@@ -3,10 +3,30 @@
   list-style-type: none;
   font-family: 'Roboto', sans-serif;
   color: #2e2f42;
+  list-style: none;
 }
 /* text-deciration - none - вимикає підчеркування посилань */
 a {
   text-decoration: none;
+}
+.container {
+  width: 1440px;
+  padding-left: 156px;
+  padding-right: 156px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+div {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* Header section start */
