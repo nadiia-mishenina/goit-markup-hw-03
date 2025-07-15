@@ -24,34 +24,38 @@
     <header class="header" id="top">
       <div class="container">
         <nav class="header-navigation">
-          <a class="header-navigation-logo" href="./index.html"
-            >Web<span class="header-l-c">Studio</span>
-          </a>
-          <ul class="header-navigation-list">
-            <li class="header-navigation-list">
-              <a class="header-navigation-a" href="./index.html">Studio</a>
-            </li>
-            <li class="header-navigation-list-iteam">
-              <a class="header-navigation-a" href="">Portfolio</a>
-            </li>
-            <li class="header-navigation-list-iteam">
-              <a class="header-navigation-a" href="">Contacts</a>
-            </li>
-          </ul>
+          <div class="header-navigation-direction">
+            <a class="header-navigation-logo" href="./index.html"
+              >Web<span class="header-l-c">Studio</span>
+            </a>
+            <ul class="header-navigation-list">
+              <li class="header-navigation-list">
+                <a class="header-navigation-a" href="./index.html">Studio</a>
+              </li>
+              <li class="header-navigation-list-iteam">
+                <a class="header-navigation-a" href="">Portfolio</a>
+              </li>
+              <li class="header-navigation-list-iteam">
+                <a class="header-navigation-a_l" href="">Contacts</a>
+              </li>
+            </ul>
+          </div>
         </nav>
         <address class="address">
-          <ul class="address-list">
-            <li class="address-list-iteam">
-              <a href="mailto:info@devstudio.com" class="address-list-iteam-a"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="address-list-iteam">
-              <a href="tel:+110001111111" class="address-list-iteam-a"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
+          <div class="header-navigation-address">
+            <ul class="address-list">
+              <li class="address-list-iteam">
+                <a href="mailto:info@devstudio.com" class="address-list-iteam-a"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="address-list-iteam">
+                <a href="tel:+110001111111" class="address-list-iteam-a"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </div>
         </address>
       </div>
     </header>
@@ -69,7 +73,7 @@
       <section class="benefits" id="benefits">
         <div class="container">
           <!-- заголовок h2 потрібно приховати -->
-          <h2 class="benefits-title">Benefits</h2>
+          <h2 class="benefits-title visually-hidden">Benefits</h2>
           <ul class="benefits-list">
             <li class="benefits-list-iteam">
               <h3 class="benefits-list-iteam-title">Strategy</h3>
@@ -114,8 +118,10 @@
                 height="260"
                 class="team-list-iteam-image"
               />
-              <h3 class="team-list-iteam-title">Mark Guerrero</h3>
-              <p class="team-list-iteam-text">Product Designer</p>
+              <div class="team-container">
+                <h3 class="team-list-iteam-title">Mark Guerrero</h3>
+                <p class="team-list-iteam-text">Product Designer</p>
+              </div>
             </li>
             <li class="team-list-iteam">
               <img
@@ -125,8 +131,10 @@
                 height="260"
                 class="team-list-iteam-image"
               />
-              <h3 class="team-list-iteam-title">Tom Ford</h3>
-              <p class="team-list-iteam-text">Frontend Developer</p>
+              <div class="team-container">
+                <h3 class="team-list-iteam-title">Tom Ford</h3>
+                <p class="team-list-iteam-text">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-list-iteam">
               <img
@@ -136,8 +144,10 @@
                 height="260"
                 class="team-list-iteam-image"
               />
-              <h3 class="team-list-iteam-title">Camila Garcia</h3>
-              <p class="team-list-iteam-text">Marketing</p>
+              <div class="team-container">
+                <h3 class="team-list-iteam-title">Camila Garcia</h3>
+                <p class="team-list-iteam-text">Marketing</p>
+              </div>
             </li>
             <li class="team-list-iteam">
               <img
@@ -147,8 +157,10 @@
                 height="260"
                 class="team-list-iteam-image"
               />
-              <h3 class="team-list-iteam-title">Daniel Wilson</h3>
-              <p class="team-list-iteam-text">UI Designer</p>
+              <div class="team-container">
+                <h3 class="team-list-iteam-title">Daniel Wilson</h3>
+                <p class="team-list-iteam-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -165,8 +177,10 @@
                 height="300"
                 class="portfolio-list-iteam-image"
               />
-              <h3 class="portfolio-list-iteam-title">Banking App</h3>
-              <p class="portfolio-list-iteam-text">App</p>
+              <div class="portfolio-list-container">
+                <h3 class="portfolio-list-iteam-title">Banking App</h3>
+                <p class="portfolio-list-iteam-text">App</p>
+              </div>
             </li>
             <li class="portfolio-list-iteam">
               <img
@@ -176,8 +190,10 @@
                 height="300"
                 class="portfolio-list-iteam-image"
               />
-              <h3 class="portfolio-list-iteam-title">Cashless Payment</h3>
-              <p class="portfolio-list-iteam-text">Marketing</p>
+              <div class="portfolio-list-container">
+                <h3 class="portfolio-list-iteam-title">Cashless Payment</h3>
+                <p class="portfolio-list-iteam-text">Marketing</p>
+              </div>
             </li>
             <li class="portfolio-list-iteam">
               <img
@@ -187,8 +203,10 @@
                 height="300"
                 class="portfolio-list-iteam-image"
               />
-              <h3 class="portfolio-list-iteam-title">Meditation App</h3>
-              <p class="portfolio-list-iteam-text">App</p>
+              <div class="portfolio-list-container">
+                <h3 class="portfolio-list-iteam-title">Meditation App</h3>
+                <p class="portfolio-list-iteam-text">App</p>
+              </div>
             </li>
             <li class="portfolio-list-iteam">
               <img
@@ -198,8 +216,10 @@
                 height="300"
                 class="portfolio-list-iteam-image"
               />
-              <h3 class="portfolio-list-iteam-title">Taxi Service</h3>
-              <p class="portfolio-list-iteam-text">Marketing</p>
+              <div class="portfolio-list-container">
+                <h3 class="portfolio-list-iteam-title">Taxi Service</h3>
+                <p class="portfolio-list-iteam-text">Marketing</p>
+              </div>
             </li>
             <li class="portfolio-list-iteam">
               <img
@@ -209,8 +229,10 @@
                 height="300"
                 class="portfolio-list-iteam-image"
               />
-              <h3 class="portfolio-list-iteam-title">Screen Illustrations</h3>
-              <p class="portfolio-list-iteam-text">Design</p>
+              <div class="portfolio-list-container">
+                <h3 class="portfolio-list-iteam-title">Screen Illustrations</h3>
+                <p class="portfolio-list-iteam-text">Design</p>
+              </div>
             </li>
             <li class="portfolio-list-iteam">
               <img
@@ -220,8 +242,10 @@
                 height="300"
                 class="portfolio-list-iteam-image"
               />
-              <h3 class="portfolio-list-iteam-title">Online Courses</h3>
-              <p class="portfolio-list-iteam-text">Marketing</p>
+              <div class="portfolio-list-container">
+                <h3 class="portfolio-list-iteam-title">Online Courses</h3>
+                <p class="portfolio-list-iteam-text">Marketing</p>
+              </div>
             </li>
           </ul>
         </div>
