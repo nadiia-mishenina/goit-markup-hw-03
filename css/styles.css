@@ -191,6 +191,10 @@ img {
 /* Hero-banner section end */
 
 /* Benefits section start*/
+
+.benefits {
+  padding: 120px 0;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -234,6 +238,7 @@ img {
 /* Team section start*/
 .team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 .team-title {
   font-weight: 700;
@@ -284,7 +289,9 @@ img {
 /* Team section end*/
 
 /* Portfolio section start */
-
+.portfolio {
+  padding: 120px 0 120px 0;
+}
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
@@ -349,6 +356,7 @@ img {
 }
 .footer-logo-studio {
   color: #f4f4fd;
+  display: inline-block;
 }
 .footer-text {
   font-size: 16px;
